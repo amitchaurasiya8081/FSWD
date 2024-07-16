@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.my-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.line {
+  width: 1px;
+  height: 37px;
+  border-color: gray;
+  background-color: white;
+}
+
+.img-section img {
+  padding: 13px;
+  width: 100px;
+  margin-left: 50px;
+}
+.lists {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.list-items:hover {
+  cursor: pointer;
+}
+
+.small-button {
+  border-radius: 6px;
+  width: 117px;
+  height: 31px;
+  margin: 20px 50px;
+  background-color:#ba0cc5;
+  color: white;
+  font-weight: 800;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../asset/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90.5vh;
+  text-align: center;
+  background-position: center center;
+}
+
+.main-container{
+    padding-top: 100px;
+    color: white;
+}
+
+.heading{
+    font-size: 4rem;
+    line-height: 78px;
+}
+
+.big-button{
+  font-size: 1.4rem;
+  border-radius: 6px;
+  width: 277px;
+  height: 55px;
+  margin: 20px 50px;
+  background-color: #ba0cc5;
+  color: white;
+  font-weight: 800;
+  border: none;
+}
+
+.button{
+  margin: 6px;
+}
+
+.btn-container{
+  margin: 20px;
+}
