@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img[alt="logo"] {
+    width: 150px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    gap: 700px;
+    padding: 29px;
+  }
+  
+  .navigat {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list-item {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-self: center;
+  }
+  
+  li {
+    font-weight: 600;
+  }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 70px auto;
+    height: 501px;
+    width: 400px;
+    border-radius: 11px;
+    background-color: #f0f4f5;
+    box-shadow: 1px 1px 18px 1px black;
+}
+
+.top{
+    padding: 30px;
+}
+
+.label{
+    display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 341px;
+  gap: 12px;
+}
+
+.labe2{
+    display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 15px;
+  width: 341px;
+  gap: 12px;
+}
+
+.labe3{
+    display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 15px;
+  width: 341px;
+  gap: 12px;
+}
+
+input{
+    padding: 5px;
+  border-radius: 10px;
+  border: transparent;
+}
+
+textarea{
+    height: 120px;
+  border: transparent;
+  border-radius: 10px;
+}
+
+button{
+    margin: 34px auto;
+  padding: 11px;
+  width: 343px;
+  border-radius: 10px;
+  border: none;
+  margin: 33px auto;
+  background-color: #20BC7E;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.name, .emial , .massage{
+    font-weight: 500;
+}
